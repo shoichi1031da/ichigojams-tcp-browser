@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IchigoJamTCP通信</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">  
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+</head>
+<body>
+    <div class="title">TCP</div>
+    <div class="title">IchigoJam <=> ブラウザ/pc</div>
+
+    <form method="post" action="/" class="form">
+        <textarea type="text" name="command" id="command" class="ichigojam" cols="32" rows="15" required></textarea>
+        <textarea type="text" name="IPaddress"  id="IPaddress" class="ip" rows="1" placeholder="IchigoJamのIPアドレス（aaa.bbb.ccc.ddd）を入力" required ></textarea>    
+        <input type="submit" value="送る" id="btn" class="button">
+    </form> 
+
+    <script type="module" src="js/index.js"></script>
+    
+</body>
+</html>

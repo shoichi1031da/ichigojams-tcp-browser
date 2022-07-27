@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'ichigojam';
+    src: url("../font/IchigoJam-1.4.woff")format('woff');
+  }
+
+  @font-face {
+    font-family: 'kodomo';
+    src: url("../font/kodomo.woff")format('woff');
+  }
+  
+.body{
+  display: flex;
+  flex-flow: column;
+}
+
+.title{
+  font-family: "kodomo";
+  font-size: 20px;
+  color: rgb(8, 42, 0);
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-flow: column;
+}
+
+.ichigojam{
+    font-family: "ichigojam";
+    white-space: pre-wrap;
+    max-width: 400px;
+    min-width: 300px;
+    
+    background: rgb(8, 42, 0);
+    /* background: linear-gradient(0deg, rgba(179,28,151,1) 0%, rgba(244,111,168,1) 100%); */
+      border-radius : 10px; 
+      color: white;
+      padding: .5em 1em;
+      margin:10px 0 0 0 ;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      font-size: 85%;
+      word-break: break-all;
+      align-self: center;
+  }
+
+.ip{
+  font-family: "kodomo";
+  width: 400px;
+  min-width: 300px;
+  margin:10px 0 10px 0;
+  text-align: center;
+  align-self: center;
+}
+
+  .button{
+    width: 400px;
+    font-family: "kodomo";
+    color: rgb(8, 42, 0);
+    background-color: rgb(204, 222, 204);
+    min-width: 300px;
+    padding: .5em 1em;
+    align-self: center;
+    border: none;
+
+  }
+  .button:hover{
+    color: white;
+    background-color: rgb(8, 42, 0);
+  }
